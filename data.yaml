@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['breadcrumb', 'button', 'checkbox', 'dropdown form', 'form', 'image', 'input_field', 'link', 'logo', 'navigation_dots', 'text']
+
+roboflow:
+  workspace: goa-college-of-engineering-lvumx
+  project: websitecomp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/goa-college-of-engineering-lvumx/websitecomp/dataset/1
